@@ -1,0 +1,1 @@
+let ibg=document.querySelector(".ibg"),img=ibg.querySelector("img").getAttribute("src");ibg.setAttribute("style","background-image:url("+img+")");

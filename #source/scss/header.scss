@@ -1,0 +1,67 @@
+.header {
+	text-align: center;
+	height: 725px;
+	&__bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+	&__logo,
+	&__body {
+		position: relative;
+    	z-index: 1;
+	}
+	&__logo {
+		margin-top: 17px;
+	}
+	&__body {
+		margin-top: 41.41px;
+		h1 {
+			font-family: 'Circe', sans-serif;
+			font-size: 42px;
+			line-height: 40px;
+			text-align: center;
+			text-transform: uppercase;
+			width: 100%;
+			max-width: 306px;
+			margin: 0 auto;
+		}
+		p {
+			font-size: 14px;
+			line-height: 16px;
+			text-transform: capitalize;
+			color: #2E2E2E;
+		}
+		h3 {
+			font-size: 28px;
+			line-height: 32px;
+			text-align: center;
+			text-transform: uppercase;
+			color: #2E2E2E;
+			border: 1px dashed #000000;
+			width: 100%;
+			max-width: 258px;
+			height: 51px;
+			margin: 8px auto 30px;
+		}
+	}
+	&__images {
+		margin: 30px 0 34px;
+		div {
+			color: #2E2E2E;
+			text-align: center;
+			p {
+				font-size: 40px;
+				line-height: 47px;
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+			span {
+				font-size: 14px;
+				line-height: 16px;
+				text-transform: lowercase;
+			}
+		}
+	}
+}
